@@ -1,0 +1,60 @@
+html {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: arial, sans-serif;
+    table-layout: fixed;
+}
+
+.disable-curson {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    caret-color: transparent;
+}
+
+thead {
+    cursor: pointer;
+    align-items: center;
+}
+
+tr {
+    border-bottom: 1px solid #a8a7a7;
+    text-align: center;
+}
+
+th {
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    padding: 2px 4px;
+    background: #ece693;
+    align-items: center;
+    justify-content: center
+}
+
+td {
+    border-right: solid 1px #a8a7a7;
+}
+
+td:last-child {
+    border-right: 0;
+}
+
+table, th, td, tr {
+    text-align: center;
+}
+
+
+.container {
+    border: 1px solid lightgray;
+    margin: 1rem auto;
+}
+
+.app {
+    margin: 1rem auto;
+    text-align: center;
+}
